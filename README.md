@@ -18,5 +18,5 @@ install cdk
 -> npm i @angular/cdk
 
 # ->ng serve
-
-# -> copy the scr file in new program
+delete the old scr file in project and add scr file from git
+# -> copy the scr file in new project
