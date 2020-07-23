@@ -1,0 +1,47 @@
+:host{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.input{
+    justify-content: center;
+    position: relative;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+div.input.lable{
+    position: absolute;
+    top: 0;
+    transform: translateY(-30%);
+    left: 100px;
+    background: black;
+    padding: 10px 2px;
+
+}
+
+div.input input{
+    padding: 10px 20px;
+    font-size: 25px;
+    outline: 0;
+
+}
+
+div.input1{
+    justify-content: center;
+    position: relative;
+    padding: 100px 250px;
+    align-items: center;
+
+}
+label{
+    color: black;
+}
+
+mat-card{
+    background-color: cornflowerblue;
+    padding-left:90px;
+    
+}

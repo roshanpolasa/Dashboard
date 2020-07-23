@@ -1,0 +1,35 @@
+
+
+<mat-toolbar>
+  <div class=" a">
+    <button mat-mini-fab color="primary" aria-label="Example icon button with a menu icon" (click)="sidenav.toggle()">
+      <mat-icon >menu</mat-icon>
+    
+    </button>
+  </div>
+  
+  <div class="Title"><h3>DASHBOARD</h3></div>
+ 
+</mat-toolbar>
+
+
+
+
+
+
+<mat-sidenav-container> 
+  <mat-sidenav #sidenav mode="side" [(opened)]="opened"><app-header></app-header></mat-sidenav>
+  <div style="float:left" >
+    <span style="margin-left: 10px;">home</span>
+</div>
+
+  
+  <mat-sidenav-content><router-outlet></router-outlet>></mat-sidenav-content>
+</mat-sidenav-container>
+
+ 
+  
+  
+
+
+
