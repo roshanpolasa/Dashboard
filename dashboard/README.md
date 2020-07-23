@@ -37,7 +37,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## ->npm i highcharts 
 
 ## Install flexlayout
-## ->npm i @angular/flexlayout 
+## ->npm i @angular/flex-layout 
 
 ## install cdk
 ## -> npm i @angular/cdk
